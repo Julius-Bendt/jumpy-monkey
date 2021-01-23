@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 740e3a72aec82c147ba72d7ab4df09ee, type: 3}
+  m_Name: dialogue
+  m_EditorClassIdentifier: 
+  entries:
+  - id: Pants
+    maxLineId: 32
+    speakers:
+    - Talking pants
+    - Player
+  lines:
+  - id: 0
+    dialogueEntry: Pants
+    dialogue: 
+    output: 0c000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 12
+    dialogueEntry: Pants
+    dialogue: Oh! Hi there!
+    output: 0d0000000e0000000f000000
+    position: {x: 201, y: 9}
+    userData: 
+    speaker: Talking pants
+  - id: 13
+    dialogueEntry: Pants
+    dialogue: Hi there! - Who are you?
+    output: 14000000
+    position: {x: 380, y: -40}
+    userData: 
+    speaker: Player
+  - id: 14
+    dialogueEntry: Pants
+    dialogue: How can you talk? You're a pair of pants?!
+    output: 1e000000
+    position: {x: 365, y: 50}
+    userData: 
+    speaker: Player
+  - id: 15
+    dialogueEntry: Pants
+    dialogue: This is strange...
+    output: 10000000
+    position: {x: 367, y: 158}
+    userData: 
+    speaker: Player
+  - id: 16
+    dialogueEntry: Pants
+    dialogue: Yes, I feel it too....
+    output: 11000000
+    position: {x: 532, y: 169}
+    userData: 
+    speaker: Talking pants
+  - id: 17
+    dialogueEntry: Pants
+    dialogue: Now, do you have any questions?
+    output: 1200000013000000
+    position: {x: 679, y: 170}
+    userData: 
+    speaker: Talking pants
+  - id: 18
+    dialogueEntry: Pants
+    dialogue: Yes - Who are you?
+    output: 14000000
+    position: {x: 831, y: 135}
+    userData: 
+    speaker: Player
+  - id: 19
+    dialogueEntry: Pants
+    dialogue: No, bye.
+    output: 1a000000
+    position: {x: 835, y: 211}
+    userData: 
+    speaker: Player
+  - id: 20
+    dialogueEntry: Pants
+    dialogue: Once, I was the original idea... then the creator shifted me out with
+      you .-.
+    output: 15000000
+    position: {x: 986, y: 160}
+    userData: 
+    speaker: Talking pants
+  - id: 21
+    dialogueEntry: Pants
+    dialogue: ...and now i serve as a tutorial guide!
+    output: 16000000170000001800000019000000
+    position: {x: 1124, y: 173}
+    userData: 
+    speaker: Talking pants
+  - id: 22
+    dialogueEntry: Pants
+    dialogue: How do I move?
+    output: 1d000000
+    position: {x: 1262, y: 59}
+    userData: 
+    speaker: Player
+  - id: 23
+    dialogueEntry: Pants
+    dialogue: How do I jump?
+    output: 1c000000
+    position: {x: 1266, y: 135}
+    userData: 
+    speaker: Player
+  - id: 24
+    dialogueEntry: Pants
+    dialogue: I Can't beat the game :(
+    output: 1b000000
+    position: {x: 1268, y: 224}
+    userData: 
+    speaker: Player
+  - id: 25
+    dialogueEntry: Pants
+    dialogue: Bye
+    output: 1a000000
+    position: {x: 1268, y: 305}
+    userData: 
+    speaker: Player
+  - id: 26
+    dialogueEntry: Pants
+    dialogue: Bye! phf, new players!
+    output: 
+    position: {x: 994, y: 232}
+    userData: 
+    speaker: Talking pants
+  - id: 27
+    dialogueEntry: Pants
+    dialogue: 'Keep trying! '
+    output: 
+    position: {x: 1418, y: 224}
+    userData: 
+    speaker: Talking pants
+  - id: 28
+    dialogueEntry: Pants
+    dialogue: You jump with the "W" or "Arrow up" key!
+    output: 
+    position: {x: 1416, y: 135}
+    userData: 
+    speaker: Talking pants
+  - id: 29
+    dialogueEntry: Pants
+    dialogue: You walk with the "A" or "D", "Arrow left" or "Arrow right" keys!
+    output: 
+    position: {x: 1415, y: 50}
+    userData: 
+    speaker: Talking pants
+  - id: 30
+    dialogueEntry: Pants
+    dialogue: To be honnest, I don't know
+    output: 11000000
+    position: {x: 510, y: 60}
+    userData: 
+    speaker: Talking pants

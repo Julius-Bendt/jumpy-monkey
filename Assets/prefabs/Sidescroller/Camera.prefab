@@ -1,0 +1,289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &156924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416244}
+  - component: {fileID: 2020802}
+  - component: {fileID: 12461548}
+  - component: {fileID: 8122380}
+  - component: {fileID: 11458936}
+  - component: {fileID: 11416136}
+  - component: {fileID: 11409832}
+  - component: {fileID: 11455306}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416244
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &2020802
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156924}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.5019608, g: 0, b: 0, a: 0.019607844}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!124 &12461548
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156924}
+  m_Enabled: 1
+--- !u!81 &8122380
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156924}
+  m_Enabled: 1
+--- !u!114 &11458936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09b81f3ca13e2f744b1b4eb94b8a007f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnDelay: 0.85
+  player: {fileID: 197508, guid: ee2fc6386f422ce46a987092e05a2201, type: 3}
+  respawnPos: {x: 5, y: 3, z: 0}
+--- !u!114 &11416136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8cf01cb89027754282d198712b80697, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  b:
+  - {r: 0.33823532, g: 0, b: 0, a: 0}
+  - {r: 0.4852941, g: 0, b: 0, a: 0}
+  - {r: 0.3897059, g: 0.06304065, b: 0.06304065, a: 0}
+  time: 2
+  xOffset: 2.5
+  yOffset: 1
+  player: {fileID: 0}
+  playerPref: {fileID: 0}
+  spawnloc: {x: 0, y: 0, z: 0}
+--- !u!114 &11409832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e64bd94a85538ad48b1a837d1ebc15f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spacingX: 1.28
+  spacingY: 1.28
+  coin: {fileID: 130970, guid: a9b37edbbca384948a9eb0f46ab15613, type: 3}
+  gnd: []
+  trap: []
+  end_door: []
+  type: 0
+  useRandomSeed: 1
+  seed: 
+--- !u!114 &11455306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc7a938ba795ab4cbc5e6a95b4796f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Themes:
+  - name: Candy
+    grounds:
+    - {fileID: 107094, guid: e59e40550a78f9e49ac01cd22d2a8766, type: 3}
+    traps:
+    - {fileID: 174424, guid: bd56eb647948dff4dbe32da8d13f845d, type: 3}
+    end_doors:
+    - {fileID: 167526, guid: b3e6817f210c6ce429630042e50076d5, type: 3}
+    cameraColors:
+    - {r: 0, g: 0.42809293, b: 0.9264706, a: 0}
+  - name: Rainbow
+    grounds:
+    - {fileID: 112764, guid: fd43d935f93d30544ab72f856c84f81c, type: 3}
+    - {fileID: 148710, guid: cdd86fc1fceae5c47a4091ac348f6b4b, type: 3}
+    - {fileID: 199482, guid: ddb894b15b4d04f4aba2521c755b426c, type: 3}
+    - {fileID: 189094, guid: b268418d046f3734685de4f092e5ad4f, type: 3}
+    - {fileID: 181650, guid: 8d358ce53aecf6d468d8558908567add, type: 3}
+    - {fileID: 194102, guid: b1d800c4368c1c145bf70a61d24ddeb5, type: 3}
+    - {fileID: 199004, guid: 42d00954d8b6bff4abc2af782df3278e, type: 3}
+    - {fileID: 143290, guid: 8e809096bfc00c64db24519b5dd967e6, type: 3}
+    - {fileID: 184818, guid: 99dd246b4c855c3458e33344db4d7152, type: 3}
+    traps:
+    - {fileID: 174424, guid: bd56eb647948dff4dbe32da8d13f845d, type: 3}
+    end_doors:
+    - {fileID: 167526, guid: b3e6817f210c6ce429630042e50076d5, type: 3}
+    cameraColors:
+    - {r: 0.0039468035, g: 0.073764525, b: 0.53676474, a: 0}
+  - name: Cloud
+    grounds:
+    - {fileID: 127420, guid: 19e33937f2681574c98e808e2cb6a6fe, type: 3}
+    - {fileID: 150896, guid: 1ab75ad1ff8ba7842b7b63b25dbf73eb, type: 3}
+    - {fileID: 169588, guid: 136402ce8dbce2e44a79187c4afc623e, type: 3}
+    - {fileID: 155124, guid: 8c467035a82179648a487956ab4d7f62, type: 3}
+    - {fileID: 187688, guid: d2c143582af5d0f42a5335e6070a00bd, type: 3}
+    traps:
+    - {fileID: 174424, guid: bd56eb647948dff4dbe32da8d13f845d, type: 3}
+    end_doors:
+    - {fileID: 167526, guid: b3e6817f210c6ce429630042e50076d5, type: 3}
+    cameraColors:
+    - {r: 0, g: 0.751724, b: 1, a: 0}
+  - name: Hell
+    grounds:
+    - {fileID: 185406, guid: c6ea6b4c8d9fa1049893a45da183c23f, type: 3}
+    traps:
+    - {fileID: 174424, guid: bd56eb647948dff4dbe32da8d13f845d, type: 3}
+    end_doors:
+    - {fileID: 167526, guid: b3e6817f210c6ce429630042e50076d5, type: 3}
+    cameraColors:
+    - {r: 1, g: 0, b: 0, a: 0}
+    - {r: 0.8235294, g: 0, b: 0, a: 0}
+    - {r: 0.6544118, g: 0, b: 0, a: 0}
+    - {r: 0.83823526, g: 0.24653977, b: 0.24653977, a: 0}
+    - {r: 0.72794116, g: 0.22480536, b: 0.22480536, a: 0}
+  - name: Shadow
+    grounds:
+    - {fileID: 144872, guid: 63fd6fcf6f6c7d5419cda150c2a4f1de, type: 3}
+    - {fileID: 192806, guid: 08b75c2ca48f5434b9aa8a3f96dfb80b, type: 3}
+    - {fileID: 159428, guid: 1e55863b411a3964a92fa01deed96f2f, type: 3}
+    - {fileID: 170268, guid: a424f94cd8176f846becfac9c7879b02, type: 3}
+    traps:
+    - {fileID: 174424, guid: bd56eb647948dff4dbe32da8d13f845d, type: 3}
+    end_doors:
+    - {fileID: 167526, guid: b3e6817f210c6ce429630042e50076d5, type: 3}
+    cameraColors:
+    - {r: 0.066176474, g: 0.066176474, b: 0.066176474, a: 0}
+    - {r: 0.14705884, g: 0.14705884, b: 0.14705884, a: 0}
+    - {r: 0.18382353, g: 0.18382353, b: 0.18382353, a: 0}
+  - name: Stone
+    grounds:
+    - {fileID: 182896, guid: 8b5f02e603638524ebe007d9bfa26f64, type: 3}
+    - {fileID: 169520, guid: db8f7bbc4b449ec4ab391cbfd3fd4eac, type: 3}
+    - {fileID: 179468, guid: 9ec09d213b7a33d4bb1b43cc51e298c1, type: 3}
+    - {fileID: 108738, guid: 4d754c5952094df4682643f273fed893, type: 3}
+    - {fileID: 109078, guid: 28f75125c3a85294f91891a146d7cdbe, type: 3}
+    traps:
+    - {fileID: 174424, guid: bd56eb647948dff4dbe32da8d13f845d, type: 3}
+    end_doors:
+    - {fileID: 167526, guid: b3e6817f210c6ce429630042e50076d5, type: 3}
+    cameraColors:
+    - {r: 0, g: 0.75294125, b: 1, a: 0}
+  - name: Sand
+    grounds:
+    - {fileID: 182320, guid: a13ac868f838a34458fc1d80f6a0f8e3, type: 3}
+    - {fileID: 167650, guid: 22251ae787e7f164ca643b9183ba0918, type: 3}
+    - {fileID: 108370, guid: 0d8542bbbdc2dd3428607bdb43a9d754, type: 3}
+    - {fileID: 193244, guid: 2cfc544071ab8d243b30beb55e35ad9f, type: 3}
+    - {fileID: 153454, guid: 365dcde2b90dfed44a17fc7e9923ce4f, type: 3}
+    traps:
+    - {fileID: 174424, guid: bd56eb647948dff4dbe32da8d13f845d, type: 3}
+    end_doors:
+    - {fileID: 167526, guid: b3e6817f210c6ce429630042e50076d5, type: 3}
+    cameraColors:
+    - {r: 0, g: 0.75294125, b: 1, a: 0}
+  - name: Normal
+    grounds:
+    - {fileID: 110304, guid: 8d9eb485c711e6e46a9714ff9821f809, type: 3}
+    - {fileID: 135842, guid: b47a65d363bdce4428274307bbb128b8, type: 3}
+    - {fileID: 125410, guid: 51192bf457ce356438c6698f87d6c9be, type: 3}
+    - {fileID: 181408, guid: 89a456101042a2848b444bdc858299da, type: 3}
+    - {fileID: 106826, guid: d594971405b1b9b42abe81e0df2d8463, type: 3}
+    traps:
+    - {fileID: 174424, guid: bd56eb647948dff4dbe32da8d13f845d, type: 3}
+    end_doors:
+    - {fileID: 167526, guid: b3e6817f210c6ce429630042e50076d5, type: 3}
+    cameraColors:
+    - {r: 0, g: 0.75172424, b: 1, a: 0}
+  - name: Christmas
+    grounds:
+    - {fileID: 158244, guid: fde004e820813d9438fea7634728fa62, type: 3}
+    - {fileID: 173514, guid: cb8668e27aba61c40987b449d8c45bbd, type: 3}
+    - {fileID: 190654, guid: 1f0f7f7ee32e2e048908c52038732f74, type: 3}
+    - {fileID: 146958, guid: a28fe395acf2ad84a8bb431ba8fd7b8f, type: 3}
+    - {fileID: 179372, guid: 9455cb2cfabf7cc4c8f02a6a2807ea41, type: 3}
+    - {fileID: 172644, guid: 67c54f1ecb1c88c40a901146f84ae6f8, type: 3}
+    traps:
+    - {fileID: 174424, guid: bd56eb647948dff4dbe32da8d13f845d, type: 3}
+    end_doors:
+    - {fileID: 167526, guid: b3e6817f210c6ce429630042e50076d5, type: 3}
+    cameraColors:
+    - {r: 0.075861454, g: 0, b: 0.553, a: 0}
+  id: 0

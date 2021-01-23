@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>dialogue</name>
+  <hideFlags>None</hideFlags>
+  <entries>
+    <DialogueEntry>
+      <id>Drug dealer</id>
+      <maxLineId>12</maxLineId>
+      <speakers>
+        <string>User</string>
+        <string>Dealer</string>
+      </speakers>
+    </DialogueEntry>
+  </entries>
+  <lines>
+    <DialogueLine>
+      <id>0</id>
+      <dialogueEntry>Drug dealer</dialogueEntry>
+      <output>
+        <int>1</int>
+      </output>
+      <position>
+        <x>10</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>1</id>
+      <dialogueEntry>Drug dealer</dialogueEntry>
+      <dialogue>I've heard you sell E?
+</dialogue>
+      <output>
+        <int>2</int>
+      </output>
+      <position>
+        <x>161</x>
+        <y>-29</y>
+      </position>
+      <userData />
+      <speaker>User</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>2</id>
+      <dialogueEntry>Drug dealer</dialogueEntry>
+      <dialogue>ye thats true ma man how much u wanna buy?
+
+</dialogue>
+      <output>
+        <int>3</int>
+        <int>4</int>
+        <int>5</int>
+        <int>6</int>
+        <int>7</int>
+      </output>
+      <position>
+        <x>311</x>
+        <y>-29</y>
+      </position>
+      <userData />
+      <speaker>Dealer</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>3</id>
+      <dialogueEntry>Drug dealer</dialogueEntry>
+      <dialogue>I'll have what I can get for $50</dialogue>
+      <output>
+        <int>8</int>
+      </output>
+      <position>
+        <x>461</x>
+        <y>-70</y>
+      </position>
+      <userData />
+      <speaker>User</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>4</id>
+      <dialogueEntry>Drug dealer</dialogueEntry>
+      <dialogue>I'll have what I can get for $100</dialogue>
+      <output>
+        <int>8</int>
+      </output>
+      <position>
+        <x>462</x>
+        <y>2</y>
+      </position>
+      <userData />
+      <speaker>User</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>5</id>
+      <dialogueEntry>Drug dealer</dialogueEntry>
+      <dialogue>I'll have what I can get for $150</dialogue>
+      <output>
+        <int>8</int>
+      </output>
+      <position>
+        <x>460</x>
+        <y>75</y>
+      </position>
+      <userData />
+      <speaker>User</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>6</id>
+      <dialogueEntry>Drug dealer</dialogueEntry>
+      <dialogue>I'll have what I can get for $200</dialogue>
+      <output>
+        <int>9</int>
+      </output>
+      <position>
+        <x>465</x>
+        <y>149</y>
+      </position>
+      <userData />
+      <speaker>User</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>7</id>
+      <dialogueEntry>Drug dealer</dialogueEntry>
+      <dialogue>Nevermind</dialogue>
+      <output>
+        <int>11</int>
+      </output>
+      <position>
+        <x>468</x>
+        <y>222</y>
+      </position>
+      <userData />
+      <speaker>User</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>8</id>
+      <dialogueEntry>Drug dealer</dialogueEntry>
+      <dialogue>Here you go dawg, Don't tell the cops!</dialogue>
+      <output />
+      <position>
+        <x>679</x>
+        <y>40</y>
+      </position>
+      <userData />
+      <speaker>Dealer</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>9</id>
+      <dialogueEntry>Drug dealer</dialogueEntry>
+      <dialogue>I don't deal that big quantities!</dialogue>
+      <output>
+        <int>10</int>
+      </output>
+      <position>
+        <x>615</x>
+        <y>149</y>
+      </position>
+      <userData />
+      <speaker>Dealer</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>10</id>
+      <dialogueEntry>Drug dealer</dialogueEntry>
+      <dialogue>so, how much you want?</dialogue>
+      <output>
+        <int>3</int>
+        <int>4</int>
+        <int>5</int>
+        <int>7</int>
+      </output>
+      <position>
+        <x>765</x>
+        <y>149</y>
+      </position>
+      <userData />
+      <speaker>Dealer</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>11</id>
+      <dialogueEntry>Drug dealer</dialogueEntry>
+      <dialogue>fuck off then, stop wasting my time.</dialogue>
+      <output />
+      <position>
+        <x>648</x>
+        <y>254</y>
+      </position>
+      <userData />
+      <speaker />
+    </DialogueLine>
+  </lines>
+</DialogueFile>
