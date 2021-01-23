@@ -11,7 +11,7 @@
 /[Uu]ser[Ss]ettings/
 
 # Dont upload the copyrigthed music I used
-/[Aa]ssets[Ss]ounds/[Bb]ackground
+/[Aa]ssets/[Ss]ounds/[Bb]ackground
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
