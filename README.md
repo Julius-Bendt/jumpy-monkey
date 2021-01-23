@@ -17,7 +17,6 @@ I have no idea what "EasySave" is, or how it works anymore. Sorry!
 Either clone the reposity, or import the unity package file.<br>
 The latest unity version tested: UNITY_2019.4.11f1<br>
 However, newer version *should* work. 
-Warning: Assets could throw a lot af errors!
 
 
 Made with :heart: in Aalborg, Denmark
